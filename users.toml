@@ -1,0 +1,20 @@
+# Archivo generado con hashes PBKDF2; no contiene contrasenas en texto plano.
+[users]
+
+[users.mainuser]
+role = "administrador"
+salt = "8941b5fd68017bb4b6f8262ba996e9a3"
+password_hash = "1219cb94f0333b3b63c13a6db61da5e93597eee47b729cc9865107fb50e564dd"
+iterations = 310000
+
+[users.genericuser1]
+role = "usuario"
+salt = "6c77c336fce02e33eb91f0b6380a096d"
+password_hash = "33b9d3aaf0f7667e733d2459019bc62734e942ab400c11a592aa7ddb3353a65f"
+iterations = 310000
+
+[users.genericuser2]
+role = "usuario"
+salt = "71536cefdb1578204559aa46733b13a2"
+password_hash = "3588820959ad9208cc9600fd6503c16c270d6d4c5c89302a5a8b54ed3135ee1a"
+iterations = 310000
