@@ -1,0 +1,20 @@
+# Credenciales protegidas con PBKDF2-SHA256
+[users]
+
+[users.mainuser]
+role = "administrador"
+salt = "3480670802bf28734d522774126f6c6d"
+password_hash = "553a06d110cc91b8c0dfb5f8ab76398a172595feba676ea5f5c776a8112b0aea"
+iterations = 310000
+
+[users.genericuser1]
+role = "usuario"
+salt = "a2cef3a0cad2624ce7671d692a5f6e3d"
+password_hash = "dbc82716e3250c9a30bda00185540f0d37dc48bc62648a294a3f84d5da95cd5c"
+iterations = 310000
+
+[users.genericuser2]
+role = "usuario"
+salt = "41735347b48f55b88eb505be8376bfc2"
+password_hash = "a78097b05484bb9781c7146859960213c814ec3a0d5dfd96c88bd045564a6676"
+iterations = 310000
